@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Diabetic Retinopathy Detection</title>
+ <link rel="stylesheet" href="style.css">
+ <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+ <div class="main">
+  <div class="navbar">
+   <div class="icon">
+    <h2 class="logo">RetiTech</h2>
+   </div>
+  <div class="menu">
+   <ul>
+    <li><a href="home.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="stages.html">TREATMENT</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+   </ul>
+  </div>
+  </div> 
+  <div class="content">
+   <h1>Diabetic<br><span>Retinopathy</span> <br>Detection</h1>
+   <p class="par">Diabetic Retinopathy is a condition which affects the eyes.
+                <br>Stage-0: No Diabetic Retinopathy.
+                <br>Stage-1: Mild Diabetic Retinopathy(Non Proliferative).
+                <br>Stage-2: Moderate Diabetic Retinopathy(Non Proliferative).
+                <br>Stage-3: Severe Diabetic Retinopathy(Proliferative).
+                <br>Stage-4: Proliferative Diabetic Retinopathy.<br></p>
+   
+   <div class="form">
+    <h2>Upload Retina Image Here</h2>
+     <div class="container">
+      <input type="file" id="file" accept="image/*" hidden>
+       <div class="img-area" data-img="">
+	<h3>Uploaded Image will be displayed here...</h3>
+			
+       </div><br><br>
+       <button class="select-image">Select Image</button><br>
+       <form action="#" method="post">
+       <button type="submit" class="select-image">Submit</button> 
+       </form>
+     </div>
+   </div>
+  </div>
+ </div>
+ <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+ <script src="script.js"></script>
+</body>
+</html>
